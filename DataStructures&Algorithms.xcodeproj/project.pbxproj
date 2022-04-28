@@ -13,6 +13,15 @@
 		B81532C72818272D002C0611 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81532C52818272D002C0611 /* Main.storyboard */; };
 		B81532C92818272E002C0611 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B81532C82818272E002C0611 /* Assets.xcassets */; };
 		B81532CC2818272E002C0611 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B81532CA2818272E002C0611 /* LaunchScreen.storyboard */; };
+		B81532D428182774002C0611 /* LinkedListOfStings.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532D328182774002C0611 /* LinkedListOfStings.swift */; };
+		B81532D628190E18002C0611 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532D528190E18002C0611 /* BinarySearchTree.swift */; };
+		B81532DA28199209002C0611 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532D928199209002C0611 /* Vertex.swift */; };
+		B81532DC28199233002C0611 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532DB28199233002C0611 /* Edge.swift */; };
+		B81532DE28199263002C0611 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532DD28199263002C0611 /* Graph.swift */; };
+		B81532E028199289002C0611 /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532DF28199289002C0611 /* Heap.swift */; };
+		B81532E2281992E1002C0611 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532E1281992E1002C0611 /* PriorityQueue.swift */; };
+		B81532E428199317002C0611 /* Dijkstra.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532E328199317002C0611 /* Dijkstra.swift */; };
+		B81532E6281A8374002C0611 /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81532E5281A8374002C0611 /* ArrayExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		B81532C82818272E002C0611 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B81532CB2818272E002C0611 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B81532CD2818272E002C0611 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B81532D328182774002C0611 /* LinkedListOfStings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListOfStings.swift; sourceTree = "<group>"; };
+		B81532D528190E18002C0611 /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		B81532D928199209002C0611 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		B81532DB28199233002C0611 /* Edge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge.swift; sourceTree = "<group>"; };
+		B81532DD28199263002C0611 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		B81532DF28199289002C0611 /* Heap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
+		B81532E1281992E1002C0611 /* PriorityQueue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		B81532E328199317002C0611 /* Dijkstra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dijkstra.swift; sourceTree = "<group>"; };
+		B81532E5281A8374002C0611 /* ArrayExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +81,15 @@
 				B81532C82818272E002C0611 /* Assets.xcassets */,
 				B81532CA2818272E002C0611 /* LaunchScreen.storyboard */,
 				B81532CD2818272E002C0611 /* Info.plist */,
+				B81532D328182774002C0611 /* LinkedListOfStings.swift */,
+				B81532D528190E18002C0611 /* BinarySearchTree.swift */,
+				B81532D928199209002C0611 /* Vertex.swift */,
+				B81532DB28199233002C0611 /* Edge.swift */,
+				B81532DD28199263002C0611 /* Graph.swift */,
+				B81532DF28199289002C0611 /* Heap.swift */,
+				B81532E1281992E1002C0611 /* PriorityQueue.swift */,
+				B81532E328199317002C0611 /* Dijkstra.swift */,
+				B81532E5281A8374002C0611 /* ArrayExtension.swift */,
 			);
 			path = "DataStructures&Algorithms";
 			sourceTree = "<group>";
@@ -138,9 +165,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B81532E028199289002C0611 /* Heap.swift in Sources */,
+				B81532DE28199263002C0611 /* Graph.swift in Sources */,
 				B81532C42818272D002C0611 /* ViewController.swift in Sources */,
+				B81532E6281A8374002C0611 /* ArrayExtension.swift in Sources */,
 				B81532C02818272D002C0611 /* AppDelegate.swift in Sources */,
+				B81532DC28199233002C0611 /* Edge.swift in Sources */,
+				B81532E428199317002C0611 /* Dijkstra.swift in Sources */,
+				B81532D428182774002C0611 /* LinkedListOfStings.swift in Sources */,
 				B81532C22818272D002C0611 /* SceneDelegate.swift in Sources */,
+				B81532E2281992E1002C0611 /* PriorityQueue.swift in Sources */,
+				B81532D628190E18002C0611 /* BinarySearchTree.swift in Sources */,
+				B81532DA28199209002C0611 /* Vertex.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
