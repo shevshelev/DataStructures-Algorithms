@@ -41,7 +41,7 @@ extension Array where Element: Comparable {
             }
             let leftElement = leftArray[leftIndex]
             let rightElement = rightArray[rightIndex]
-            
+
             if leftElement < rightElement {
                 result.append(leftElement)
                 leftIndex += 1

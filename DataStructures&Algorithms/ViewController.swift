@@ -101,8 +101,9 @@ class ViewController: UIViewController {
         var testArray = [3, 5, 7, 8, 9, 1, 4, 2, 6]
         print("FastSort")
         print(testArray.fastSort())
+        var newTestArray = [8, 9, 7, 5, 6, 4, 3, 1, 2]
         print("MergeSort")
-        print(testArray.mergeSort())
+        print(newTestArray.mergeSort())
     }
 }
 
